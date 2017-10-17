@@ -38,4 +38,6 @@ public class App
                             .favoriteColor("Gold")
                             .build();
     }
+
+    WebClient wc = new WebClient(new MobileDeviceWebService());
 }

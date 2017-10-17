@@ -2,7 +2,7 @@ package com.codefellows;
 
 import java.util.ArrayList;
 
-public class WebService {
+public class MobileDeviceWebService implements IWebService {
     public String serveContent() {
         return "some content";
     }

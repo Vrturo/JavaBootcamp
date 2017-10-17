@@ -3,9 +3,9 @@ package com.codefellows;
 import java.util.ArrayList;
 
 public class WebClient {
-    private WebService ws;
+    private IWebService ws;
 
-    public WebClient(WebService ws) {
+    public WebClient(IWebService ws) {
         this.ws = ws;
     }
 
