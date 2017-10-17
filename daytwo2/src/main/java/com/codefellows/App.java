@@ -30,5 +30,12 @@ public class App
 
         phone2.turnOn();
         phone2.turnOff();
+
+        Person p = Person.builder()
+                            .age(25)
+                            .name("Art")
+                            .city("Seattle")
+                            .favoriteColor("Gold")
+                            .build();
     }
 }
