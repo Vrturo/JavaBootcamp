@@ -3,17 +3,17 @@ package com.codefellows;
 public enum PowerState {
     ON("power is on"),
     OFF("power is off"),
-    SUSPENDED("suspended"),
-    HIBERNATED("hibernated"),
-    UNKNOWN("unknown");
+    SUSPENDED,
+    HIBERNATED,
+    UNKNOWN;
 
     private String description;
 
-    private PowerState() {
+    PowerState() {
         description = null;
     }
 
-    private PowerState(String d) {
+    PowerState(String d) {
         description = d;
     }
 

@@ -4,12 +4,18 @@ public abstract class ElectronicDevice {
     protected boolean on = false;
     protected String deviceName;
 
+    protected PowerState powerState = PowerState.OFF;
+
     public ElectronicDevice(String deviceName) {
         this.deviceName = deviceName;
     }
 
     public String getDeviceName(){
         return deviceName;
+    }
+
+    public getPowerStateString() {
+        return powerState.getDescription();
     }
 
     public abstract String getDeviceInfo();
