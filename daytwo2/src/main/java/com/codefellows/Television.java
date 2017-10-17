@@ -1,6 +1,6 @@
 package com.codefellows;
 
-public abstract class Television {
+public class Television extends ElectronicDevice {
     private int channel;
 
     public Television() {

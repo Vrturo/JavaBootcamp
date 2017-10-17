@@ -1,9 +1,10 @@
 package com.codefellows;
 
-public class ElectronicDevice {
+public abstract class ElectronicDevice {
     protected boolean on = false;
+    protected String deviceName;
 
-    public ElectronicDevice(String deviceName) P{
+    public ElectronicDevice(String deviceName) {
         this.deviceName = deviceName;
     }
 
@@ -11,7 +12,7 @@ public class ElectronicDevice {
         return deviceName;
     }
 
-    public abstract String getDeviceName();
+    public abstract String getDeviceInfo();
 
     public void turnOn() {
         on = true;

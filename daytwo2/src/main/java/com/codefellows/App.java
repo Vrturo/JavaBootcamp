@@ -25,5 +25,10 @@ public class App
 //        }
         tv.turnOn(5);
         tv.turnOff();
+
+        ElectronicDevice phone2 = new MobilePhone();
+
+        phone2.turnOn();
+        phone2.turnOff();
     }
 }
