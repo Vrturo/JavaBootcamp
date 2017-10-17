@@ -53,7 +53,17 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hellojava/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -129,19 +139,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Television.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/Television.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MobilePhone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/MobilePhone.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -190,6 +187,7 @@
         <option value="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/MobileDeviceWebService.java" />
         <option value="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/PowerState.java" />
         <option value="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/ElectronicDevice.java" />
+        <option value="$PROJECT_DIR$/hellojava/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -266,6 +264,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="codefellows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="hellojava" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -570,10 +573,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hellojava/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
