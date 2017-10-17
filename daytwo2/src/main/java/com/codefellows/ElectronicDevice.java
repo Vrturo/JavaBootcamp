@@ -30,14 +30,17 @@ public abstract class ElectronicDevice {
     }
 
     public void setChannel(int channel) {
+
         this.channel = channel;
     }
 
     public int getChannel() {
+
         return channel;
     }
 
     public void setCurrentApp(String currentApp) {
+
         this.currentApp = currentApp;
     }
 
