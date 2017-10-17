@@ -1,25 +1,25 @@
 package com.codefellows;
 
 public class ElectronicDevice {
-    private int channel;
-    private boolean on = false;
-    private String deviceName;
-    private String currentApp = null;
+    protected boolean on = false;
 
     public ElectronicDevice(String deviceName) P{
         this.deviceName = deviceName;
     }
+
+    public String getDeviceName(){
+        return deviceName;
+    }
+
+    public abstract String getDeviceName();
 
     public void turnOn() {
         on = true;
         System.out.println(String.format("device name: %s is now on", deviceName));
     }
 
-    public void turnOn(int channel) {
-        turnOn();
-        this.channel = channel;
-        System.out.println(String.format("deviceName: %s is set to channel %d", deviceName,
-                channel));
+    public void turnOn(int initialValue) {
+       System.out.println();
     }
 
     public void setChannel(int channel) {
