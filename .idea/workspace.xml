@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4c5fa48f-2068-47e0-b3d0-51d74e6644e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellojava" afterPath="$PROJECT_DIR$/hellojava" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/ElectronicDevice.java" afterPath="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/ElectronicDevice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/daytwo2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElectronicDevice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElectronicDevice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/ElectronicDevice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -45,6 +45,16 @@
                 <element signature="e#1174#1175#0" expanded="true" />
                 <element signature="e#1199#1200#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,6 +190,7 @@
         <option value="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/MobileDeviceWebService.java" />
         <option value="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/PowerState.java" />
         <option value="$PROJECT_DIR$/daytwo2/src/main/java/com/codefellows/ElectronicDevice.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -556,6 +567,14 @@
             <element signature="e#1174#1175#0" expanded="true" />
             <element signature="e#1199#1200#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
