@@ -46,7 +46,8 @@ public class Paint extends Application {
         Scene scene = new Scene(root, 400, 400);
 
         ControlPane cPane = new ControlPane();
-        root.getChildren().add(cPane);
+        root.setLeft(cPane);
+//        root.getChildren().add(cPane);
 //        root.setLeft(cPane);
 
 //        VBox lseft(lBox);

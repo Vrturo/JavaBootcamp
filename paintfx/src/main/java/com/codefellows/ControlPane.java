@@ -1,5 +1,6 @@
 package com.codefellows;
 
+import com.sun.tools.javac.code.Attribute;
 import javafx.application.Platform;
 import javafx.scene.control.Button;
 import javafx.scene.control.Control;
@@ -7,14 +8,28 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class ControlPane extends VBox {
-    private Button lineButton, quitButton;
+    private ArrayList<Button> shapeButtons = new ArrayList<>();
+    private ShapeType shapeType = ShapeType.LINE;
+    private Button quitButton = new Button("Quit");
 
     public ControlPane() {
-        lineButton = new Button("Line");
-        quitButton = new Button("Quit");
+        shapeButtons.add(new Button("Line"));
+        shapeButtons.add(new Button("Circle"));
+        shapeButtons.add(new Button("Pen"));
+        shapeButtons.add(new Button("Rectangle"));
 
-        getChildren().add(lineButton);
+        for (Button b : shapeButtons) {
+            getChildren().add(b);
+            b.setOnAction(e -> {
+                String buttonText = b.getText().toUpperCase();
+                shapeType = ShapeType.valueOf(buttonText);
+            });
+        }
         getChildren().add(quitButton);
 
         setPrefWidth(400);

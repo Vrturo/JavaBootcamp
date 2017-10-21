@@ -1,8 +1,8 @@
 package com.codefellows;
 
 public enum ShapeType {
-    RECTANGLES,
-    CIRCLES,
+    RECTANGLE,
+    CIRCLE,
     LINE,
-    PEN
+    PEN;
 }
