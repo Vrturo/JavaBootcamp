@@ -10,6 +10,7 @@
         <module name="day4" />
         <module name="daythree" />
         <module name="daytwo2" />
+        <module name="paintfx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -17,6 +18,7 @@
       <module name="day4" target="1.5" />
       <module name="daythree" target="1.5" />
       <module name="daytwo2" target="1.5" />
+      <module name="paintfx" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
