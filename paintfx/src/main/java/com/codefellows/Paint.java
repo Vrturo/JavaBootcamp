@@ -43,10 +43,13 @@ public class Paint extends Application {
 //        Scene scene = new Scene(root,300, 250);
 //        stage.setScene(scene);
         BorderPane root = new BorderPane();
-        Scene scene = new Scene(root, 400, 400);
+        Scene scene = new Scene(root);
+        PaintPane pPane = new PaintPane();
 
         ControlPane cPane = new ControlPane();
+
         root.setLeft(cPane);
+        root.setRight(pPane);
 //        root.getChildren().add(cPane);
 //        root.setLeft(cPane);
 

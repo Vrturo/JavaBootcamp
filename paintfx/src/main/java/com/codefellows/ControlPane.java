@@ -28,6 +28,8 @@ public class ControlPane extends VBox {
             b.setOnAction(e -> {
                 String buttonText = b.getText().toUpperCase();
                 shapeType = ShapeType.valueOf(buttonText);
+
+                System.out.println(AppState.getShapeType());
             });
         }
         getChildren().add(quitButton);
