@@ -2,16 +2,17 @@ package com.codefellows;
 
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.paint.Paint;
+
 
 public class Line extends Shape {
-    private int width, int height;
+    private int width;
+    private int height;
 
     public Line (int x, int y, int width, int height) {
         super(x, y);
 
-        this.width;
-        this.height;
+        this.width = width;
+        this.height = height;
     }
 
     public void draw(Canvas canvas) {

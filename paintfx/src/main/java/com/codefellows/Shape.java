@@ -1,5 +1,6 @@
 package com.codefellows;
 
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
 public abstract class Shape {
@@ -21,7 +22,7 @@ public abstract class Shape {
         this.color = color;
     }
 
-    public abstract draw {
+    public abstract void draw (GraphicsContext gc) {
 
     }
 }
